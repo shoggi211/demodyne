@@ -1,0 +1,1071 @@
+{
+ "rows": [
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "Beegbrain/stack_two_cubes",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "action_shift_-1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "action_shift_-2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "action_shift_-3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "action_shift_-1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "action_shift_-2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "action_shift_-3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "fouad1233/so101_pen_in_bowl_wrist",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "yunhezhui123/so100_test5",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "action_shift_-1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "action_shift_-2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "action_shift_-3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "un1c0rnio/so101_box_pencil3",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "action_shift_-1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "action_shift_-2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "action_shift_-3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "swap_0_1",
+   "detected": false,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Aneysait/so101_pick_red_all",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "action_shift_-1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "action_shift_-2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "action_shift_-3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sincostangerines/stack_cubes_100",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "action_shift_-1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "action_shift_-2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "action_shift_-3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "Ahi-Yu/so100_pengripD",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "action_shift_-1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "action_shift_-2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "action_shift_-3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "action_shift_-1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "action_shift_-2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "action_shift_-3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "dragon-95/so100_sorting_1",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": []
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "sergiov2000/yellow_20_episodes",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": [
+    "causality"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "swap_0_1",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "swap_2_3",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "invert_1",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "invert_3",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "freeze_2",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "stale_5pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "stale_2pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "drop_3pct",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "ep_latency_+50ms",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "ep_latency_+100ms",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  },
+  {
+   "dataset": "joooonhocho/so100_doll_in_bowl_2",
+   "fault": "future_state_actions",
+   "detected": true,
+   "clean_alarms": [
+    "causality",
+    "stalls"
+   ]
+  }
+ ],
+ "false_alarms": {
+  "causality": 4,
+  "stalls": 2
+ },
+ "n_clean": 12,
+ "rates": {
+  "swap_0_1": 0.9166666666666666,
+  "swap_2_3": 1.0,
+  "invert_1": 1.0,
+  "invert_3": 1.0,
+  "freeze_2": 1.0,
+  "stale_5pct": 1.0,
+  "stale_2pct": 1.0,
+  "drop_3pct": 1.0,
+  "ep_latency_+50ms": 1.0,
+  "ep_latency_+100ms": 1.0,
+  "future_state_actions": 1.0,
+  "action_shift_-1": 1.0,
+  "action_shift_-2": 1.0,
+  "action_shift_-3": 1.0
+ }
+}

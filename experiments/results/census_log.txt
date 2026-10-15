@@ -1,0 +1,297 @@
+3964 tagged so100/so101 datasets; analysing 250
+[1/250] miladherfeh/eval-feb-24-2026-v6: ArrowInvalid: Could not open Parquet input source '<Buffer>': Parquet magic byte
+[2/250] ps5387/grab_bottle2: ok
+[3/250] jingcao/so100_test: ok
+[4/250] hrhraj/so100_green_dice_with_boxes: ok
+[5/250] UCleQmAR/so101_data: ok
+[6/250] Long27/so101_cartesian_demo10: ok
+[7/250] bensprenger/purple_test_2: ok
+[8/250] chair0/single_print_2cam_merged_trimmed_v3_metadata: ok
+[9/250] buyiasd/so100_test: ok
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  L = np.nanmedian(np.vstack(per), axis=0)
+[10/250] Zak-Y/so100_grap_dataset: ok
+[11/250] ZeroShotLaz/so100_bimanual: ok
+[12/250] dragon-95/eval_act_so100_sorting_5: ok
+[13/250] DorayakiLin/yzw_so100_stack_cube_v4: ok
+[14/250] LeRobot-worldwide-hackathon/292-AlorsCent-cube_in_cube_shaped_hole0: ok
+[15/250] maximilienroberti/so100_lego_red_box: ok
+[16/250] shixiaochen/so100_test: ok
+[17/250] CRPlab/lekiwi-full-dataset: ok
+[18/250] suoxd123/so100_test: ok
+[19/250] CSCSXX/eval_act_cs_100_as_100_pick_place_cube_1.18_ckpt3: ok
+[20/250] siqiLi/so100_test0: ok
+[21/250] jiroh2000/so100_test_01: ok
+[22/250] liuhuanjim013/eval_so100_test1: ok
+[23/250] yingliu-data/eval_so101_Da_Pinchi_2: ok
+[24/250] shylee/so100_pengripA: ok
+[25/250] Lightbulbuser/so101_test: ok
+[26/250] vicwu666/so101_test: ok
+[27/250] hamidkaloorazi/so100_bi_gui: ok
+[28/250] manoj92/so100_marker1: ok
+[29/250] Cornito/so101_test3: ok
+[30/250] ZHANG0717/so100_test: HTTPError: HTTP Error 404: Not Found
+[31/250] Yotofu/so100_qw: HTTPError: HTTP Error 404: Not Found
+[32/250] furuya02/so101-duck-pickup-v30: ok
+[33/250] harrymao20/so101_test: ok
+[34/250] kumarhans/new_test_5: ok
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  L = np.nanmedian(np.vstack(per), axis=0)
+[35/250] lirislab/so100_demo: ok
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  L = np.nanmedian(np.vstack(per), axis=0)
+[36/250] Loki0929/so100_lan_test: ok
+[37/250] andy309/so100_0313_no_wrist_camera_with_two_arms_cloths: ok
+[38/250] huch111/so100test7: HTTPError: HTTP Error 401: Unauthorized
+[39/250] DanqingZ/072317: ok
+[40/250] baladhurgesh97/so100_final_picking_3: ok
+[41/250] THULab/svla_so100_stacking: ValueError: THULab/svla_so100_stacking: no parquet data files
+[42/250] jmrog/so100_sweet_pick_draft3: ok
+[43/250] liuhuanjim013/eval_dp_so100_th_1-1: ok
+[44/250] geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop: ok
+[45/250] arsenxeno/record-test-30-40-episo: ok
+[46/250] DanqingZ/dataset_moo2: ok
+[47/250] JimmyPeng02/so100_test: ok
+[48/250] MoAIBo/so101_tb4_timing_test: ok
+[49/250] cjlqwe/so100_51_70: ok
+[50/250] Waffle0829/lekiwi_spin_cycle: ok
+[51/250] AaronNewman/so100_test3: ok
+[52/250] vasco281204/so101_green_block_36: ok
+[53/250] 1g0rrr/so100_test1406: ok
+[54/250] xsatvik/eval_act_so100_test: ok
+[55/250] ilBiondo06/so100_ball_C1: ok
+[56/250] Mohamedal/so100_test_peach_ddata: ok
+[57/250] lt-s/rsj2025_train_lift_the_stacked_blue_dish_and_set_it_down_on_the_table: ok
+[58/250] ben250fox/so100_8: ok
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+[59/250] JX001/so100_test: ok
+[60/250] gdut508/so100-T: HTTPError: HTTP Error 404: Not Found
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  L = np.nanmedian(np.vstack(per), axis=0)
+[61/250] MTXYZ/so101_lighter_pickplace_v1: ok
+[62/250] CatWithIcecream/so100_test: ok
+[63/250] kumarhans/simBoxPushTest: ok
+[64/250] lt-s/so100_train_move_blue_block_tray_to_blue_dish_flip: ok
+[65/250] vraiRobotLab/so101-mm-blue-cube-blue-box-joints-2026-07-30: ok
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+[66/250] bjb7/so101_berm_build_test_2: ok
+[67/250] luriss/so100_pick_and_place_box_task_0428: ok
+[68/250] lt-s/rsj2025_train_move_two_blocks_tray_to_matching_dishes: ok
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  L = np.nanmedian(np.vstack(per), axis=0)
+[69/250] Ityl/so100_recording2: ok
+[70/250] hugechen/wolun_dataset: ok
+[71/250] software-pathon-ai/so100_test_100-testtadas_2025-08-12T23-24-36: ok
+[72/250] Deason11/so100_test3: ok
+[73/250] liuhuanjim013/eval_act_so100_th: ok
+[74/250] xsatvik/mixer_on_off_new_4: ok
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  L = np.nanmedian(np.vstack(per), axis=0)
+[75/250] karthikpythireddi93/bread_cucumber_carrot: ok
+[76/250] sergiov2000/so100_movella_stack_ball_C1: ok
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+[77/250] blanchon/play_orange12: ok
+[78/250] Tank-123/so101_testdata_0820: ok
+[79/250] zacapa/SO101_chess_test3: ok
+[80/250] THULab/battery: ValueError: THULab/battery: no parquet data files
+[81/250] bjb7/so101_pen_mug_10_8: ok
+[82/250] sergiov2000/so100_dataset3_test: ok
+[83/250] paszea/so100_whale_2: ok
+[84/250] Thorns07/so100_test_diffusion_grasp: ok
+[85/250] RaspberryVitriol/so101_demo_dataset4: ok
+[86/250] zhaoraning/double: ok
+[87/250] masato-ka/so100_grasp_lego: ok
+[88/250] ben250fox/so100_2: ok
+[89/250] THULab/first_task_short: ValueError: THULab/first_task_short: no parquet data files
+[90/250] therarelab/hh_p9: ok
+[91/250] andlyu/newiii_many_y_3d_cc: ok
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  L = np.nanmedian(np.vstack(per), axis=0)
+[92/250] pengjunkun/so100_push_to_hole: ok
+[93/250] therarelab/medkit_bottle_pickplace_so100: ok
+[94/250] Maxvondemmustermann/so100_cup: ok
+[95/250] Chaenn/so101_cube_sim_stack_500_0909: ok
+[96/250] apayan/so100_dice1: ok
+[97/250] therarelab/eval_act_med_dis_60E_90k_4: ok
+[98/250] airthebear/so100_GL: ok
+[99/250] pelicansogreedy/so100_test2: ok
+[100/250] danmac1/so100_test2: HTTPError: HTTP Error 404: Not Found
+[101/250] airthebear/so100_test: ok
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  loss="soft_l1", max_nfev=60)
+[102/250] Aadhavan/so101_test1: ok
+[103/250] sergiov2000/yellow_20_episodes: ok
+[104/250] Zak-Y/orange_dataset: ok
+[105/250] asafxrev/so100_jenga_box_may24b_two_cameras: ok
+[106/250] gdut508/rm_so100_test_1: ok
+[107/250] kumarhans/so100_test: ok
+[108/250] BlainLeVilain/so100_test2: ok
+[109/250] DimiSch/so100_50ep_2: ok
+[110/250] sergiov2000/so100_movella_push_ball_B2: ok
+[111/250] RaspberryVitriol/so101_demo_dataset: ok
+[112/250] AndrejOrsula/lerobot_double_ball_stacking: ok
+[113/250] pranavsaroha/so100_legos: ok
+[114/250] luo99999999/so101_clean: ok
+[115/250] andlyu/newiii_lift_n_drop_val: ok
+[116/250] sshh11/so100_test: ok
+[117/250] DanqingZ/so100_test_pick_grey_2: ok
+[118/250] DD99to5/so100_test: ok
+[119/250] miladherfeh/eval-feb-24-2026: ArrowInvalid: Could not open Parquet input source '<Buffer>': Parquet magic byte
+[120/250] ddduk/so101_pick_place_unified_success_v3: ok
+[121/250] abuod0/so101_vla_dataset_v30: ok
+[122/250] RaulSaya/so101_test3: ok
+[123/250] samsitol/so101_test5: ok
+[124/250] Deason11/so100_test22: ok
+[125/250] ilBiondo06/so100_ball_D2: ok
+[126/250] k1000dai/so101_pick_2_color_cube_and_put-smolvla: ok
+[127/250] kantine/kapla_test: ok
+[128/250] lt-s/so100_train_move_red_block_tray_to_red_dish: ok
+[129/250] kaiserbuffle/eval_hanoiv6_2_05: ok
+[130/250] ben250fox/so100_3: ok
+[131/250] Cidoyi/so100_7: ok
+[132/250] dongseon/so100_0510: ok
+[133/250] thedevansh/so100_test: ok
+[134/250] dweiQAQ/so101_test_1: ok
+[135/250] Schmidie/grossedataset: ok
+[136/250] hrhraj/eval_calibration_test_25514: ok
+[137/250] shenjianliang/so101_test: ok
+[138/250] sincostangerines/stack_cubes_100: ok
+[139/250] lt-s/rsj2025_eval_relocate_any_blue_block_in_the_red_dish_to_the_blue_dish: ok
+[140/250] Chojins/chess_game_009_white: ok
+[141/250] romanovvv1987/so100_test3: ok
+[142/250] Jiafei1224/so100_cubestack2: ok
+[143/250] Mohamedal/so100_tefsttt: ok
+[144/250] Cidoyi/so100_6: ok
+[145/250] jccj/shape_matching2: ok
+[146/250] budinggou/so100_test: ok
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  L = np.nanmedian(np.vstack(per), axis=0)
+[147/250] therarelab/test_hand_camera_view: ok
+[148/250] DanqingZ/tic_tac_toe_grid_6_raw_2: ok
+[149/250] joooonhocho/so100_doll_in_bowl_2: ok
+[150/250] RaulSaya/so101_test: ok
+[151/250] DanqingZ/0723-test: ok
+[152/250] pdd46465/so100_test6: ok
+[153/250] DanqingZ/so100_test_3_cameras: ok
+[154/250] taxitain/eval_act_so100_obj_to_bin_top0_180: ok
+[155/250] rocach94/so101_dataset_w_wall_bin_dynamic_v3: ok
+[156/250] lt-s/rsj2025_train_relocate_any_red_block_in_the_blue_dish_to_the_red_dish: ok
+[157/250] odellus/so100_test_2: ok
+[158/250] EvanL111/so101_test_619_16: ok
+[159/250] FrankIntelligentBipedalRobot/so100_test: ok
+[160/250] sixpigs1/so100_pick_cube_in_box: ok
+[161/250] lirislab/guess_who_lighting: ok
+[162/250] Cornito/so101_chess4: ok
+[163/250] software-pathon-ai/so100_test_1001twetwe_2025-08-13T10-32-04: ok
+[164/250] hungho77/so101-left_arm_task_banana_v2: ok
+[165/250] DanqingZ/purple_cow: ok
+[166/250] Aneysait/so101_pick_red_all: ok
+[167/250] jackyckhsu98/so100_test55: ok
+[168/250] andlyu/newiii_salad_cc: ok
+[169/250] RADTEAM/multiple_red_blocks_green_trey_mk: ok
+[170/250] andreasBihlmaier/dual_arm_transfer_2025_02_16: ok
+[171/250] software-pathon-ai/dataset_eggshell_cow: ok
+[172/250] kris0/kristjan123: ok
+[173/250] pierfabre/pig2: ok
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+[174/250] liyitenga/lekiwi_test8: ok
+[175/250] Whakamua/so100_mouse: ok
+[176/250] yadunund/so100_test: ok
+[177/250] ryanpennings/so100_pegcrate_e1: ok
+[178/250] 1zzx23/so100_three_cameras_dataset: ok
+[179/250] pierfabre/CowCleanRandom: ok
+[180/250] DAbraham/5Position: ok
+[181/250] doujiangwang/so100_new_test: ok
+[182/250] zacapa/SO101_FMB_02: ok
+[183/250] koenvanwijk/eval_orange50-variations-2: ok
+[184/250] hannanasko/so100_grab_item: ok
+[185/250] nguyen-v/so100_bimanual_grab_lemon_put_in_box2: ok
+[186/250] AshBastian9/so100_test: ok
+[187/250] SharkDan/so100_test_3c: ok
+[188/250] hugechen/chouti: ok
+[189/250] luriss/so100_pick_and_place_box_task_0429_1: ok
+[190/250] odellus/so100_test: ok
+[191/250] rbo-corematic/so101_test_2: ok
+[192/250] douzi999/so100_test_20: ok
+[193/250] software-pathon-ai/dataset_flamingo_cow: ok
+[194/250] BranoSandy/so100_test: ok
+[195/250] GavinDai/so100_test: ok
+[196/250] FxxkingFace/train60: ok
+[197/250] baladhurgesh97/so100_finaltest: ok
+[198/250] HenryZhang/so101_smolvla_eval_20251215_223804: ValueError: HenryZhang/so101_smolvla_eval_20251215_223804: no parquet data files
+[199/250] pranavsaroha/eval_act_so100_onelego3_mps_2: ok
+[200/250] khanhnd61/so101-multi-task-clean: ok
+[201/250] Beegbrain/stack_two_cubes: ok
+[202/250] nchristo-synaptics/QVGA_touch_pick_place: ok
+[203/250] dragon-95/so100_sorting_1: ok
+[204/250] Gano007/so100_first: ok
+[205/250] thesusian/pink_bottle: ok
+[206/250] juni3227/so100_test_cap_merge: ok
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  L = np.nanmedian(np.vstack(per), axis=0)
+[207/250] Rachata/Umi-Sim-Gripper_pick-tomato-can: ok
+[208/250] EvanL111/test3: ok
+[209/250] gerotropic/so101_line: ok
+[210/250] DanqingZ/tic_tac_toe_grid_6_raw_4: ok
+[211/250] RickRain/so101_test_single_lego: ok
+[212/250] Minato-Shoji/sim2real_test03: ok
+[213/250] charleyong/so100_test: ok
+[214/250] AK51/so100_test6: ok
+[215/250] qualiaadmin/95-dr4r-hackathon_so100_pickandplace-tagged: ok
+[216/250] yunhezhui123/so100_test5: ok
+[217/250] ben250fox/so100_10: ok
+[218/250] igaewa/so101_smolvla_test: ok
+[219/250] arminfg/lerobot_tubestorack4: ok
+[220/250] Cidoyi/so100_22: ok
+[221/250] Yee99/datasets_test1: ok
+[222/250] Cache-SCA/SO101-ma_sort_RGBblock_to_matchingplate_30fps: ok
+[223/250] samsitol/so101_test1: ok
+[224/250] oshvartz/so100_test: HTTPError: HTTP Error 404: Not Found
+[225/250] geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1: ok
+[226/250] aswinkumar99/LeRobot-SO101-task1-single-sponge-no-distractors-fixed-locations: ok
+[227/250] henklein/so100_test: ok
+[228/250] THULab/jonhpark_so101_pick_place: ValueError: THULab/jonhpark_so101_pick_place: no parquet data files
+[229/250] samsitol/so101_cube: ok
+C:\Users\Shaurya\Desktop\robotics\demodyne\src\demodyne\audit.py:275: RuntimeWarning: All-NaN slice encountered
+  L = np.nanmedian(np.vstack(per), axis=0)
+[230/250] bilimili/xlerobot-dice-4cam-v2: ok
+[231/250] blanchon/play_orange2: ok
+[232/250] Loki0929/so100_lan: ok
+[233/250] pdd46465/eval_act_so100_test: HTTPError: HTTP Error 404: Not Found
+[234/250] siqiLi/so100_test13: ok
+[235/250] THULab/so101_tape_in_square: ValueError: THULab/so101_tape_in_square: no parquet data files
+[236/250] pranavsaroha/so100_medicine_0604_test1: ok
+[237/250] CarolinePascal/00ri_so100_battery: ok
+[238/250] sreetz-nv/so101_vials_actuators_sysid: ok
+[239/250] Minato-Shoji/sim2real_test06: ok
+[240/250] fouad1233/so101_pen_in_bowl_wrist: ok
+[241/250] rfruit/so100_building_house_4: ok
+[242/250] hawnsoung/so101_test_coff_3: ok
+[243/250] zuozhuan/eval_act_so100_pen: HTTPError: HTTP Error 404: Not Found
+[244/250] DanqingZ/test-cleanup-test: ok
+[245/250] zhenxuan/lerobot_so100_pick_paper_box_v0: HTTPError: HTTP Error 404: Not Found
+[246/250] shylee/so100_cube: ok
+[247/250] DanqingZ/072320: ok
+[248/250] masato-ka/so100_nlact_block_instruct: ok
+[249/250] Ahi-Yu/so100_pengripD: ok
+[250/250] un1c0rnio/so101_box_pencil3: ok

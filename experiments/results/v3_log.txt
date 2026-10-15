@@ -1,0 +1,209 @@
+
+Beegbrain/stack_two_cubes: clean alarms=['causality']
+  action_shift_-1        (n/a: 'causality' already fires on clean data)
+  action_shift_-2        (n/a: 'causality' already fires on clean data)
+  action_shift_-3        (n/a: 'causality' already fires on clean data)
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop: clean alarms=[]
+  action_shift_-1        DETECTED
+  action_shift_-2        DETECTED
+  action_shift_-3        DETECTED
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+fouad1233/so101_pen_in_bowl_wrist: clean alarms=[]
+  action_shift_-1        DETECTED
+  action_shift_-2        DETECTED
+  action_shift_-3        DETECTED
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+yunhezhui123/so100_test5: clean alarms=['causality', 'stalls']
+  action_shift_-1        (n/a: 'causality' already fires on clean data)
+  action_shift_-2        (n/a: 'causality' already fires on clean data)
+  action_shift_-3        (n/a: 'causality' already fires on clean data)
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+un1c0rnio/so101_box_pencil3: clean alarms=[]
+  action_shift_-1        DETECTED
+  action_shift_-2        DETECTED
+  action_shift_-3        DETECTED
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+Aneysait/so101_pick_red_all: clean alarms=[]
+  action_shift_-1        DETECTED
+  action_shift_-2        DETECTED
+  action_shift_-3        DETECTED
+  swap_0_1               missed
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+sincostangerines/stack_cubes_100: clean alarms=[]
+  action_shift_-1        DETECTED
+  action_shift_-2        DETECTED
+  action_shift_-3        DETECTED
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+Ahi-Yu/so100_pengripD: clean alarms=[]
+  action_shift_-1        DETECTED
+  action_shift_-2        DETECTED
+  action_shift_-3        DETECTED
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-vertical-approach-descent-recovery-v1: clean alarms=[]
+  action_shift_-1        DETECTED
+  action_shift_-2        DETECTED
+  action_shift_-3        DETECTED
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+dragon-95/so100_sorting_1: clean alarms=[]
+  action_shift_-1        DETECTED
+  action_shift_-2        DETECTED
+  action_shift_-3        DETECTED
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+sergiov2000/yellow_20_episodes: clean alarms=['causality']
+  action_shift_-1        (n/a: 'causality' already fires on clean data)
+  action_shift_-2        (n/a: 'causality' already fires on clean data)
+  action_shift_-3        (n/a: 'causality' already fires on clean data)
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+joooonhocho/so100_doll_in_bowl_2: clean alarms=['causality', 'stalls']
+  action_shift_-1        (n/a: 'causality' already fires on clean data)
+  action_shift_-2        (n/a: 'causality' already fires on clean data)
+  action_shift_-3        (n/a: 'causality' already fires on clean data)
+  swap_0_1               DETECTED
+  swap_2_3               DETECTED
+  invert_1               DETECTED
+  invert_3               DETECTED
+  freeze_2               DETECTED
+  stale_5pct             DETECTED
+  stale_2pct             DETECTED
+  drop_3pct              DETECTED
+  ep_latency_+50ms       DETECTED
+  ep_latency_+100ms      DETECTED
+  future_state_actions   DETECTED
+
+Detection rate per fault:
+  swap_0_1               92% (11/12)
+  swap_2_3               100% (12/12)
+  invert_1               100% (12/12)
+  invert_3               100% (12/12)
+  freeze_2               100% (12/12)
+  stale_5pct             100% (12/12)
+  stale_2pct             100% (12/12)
+  drop_3pct              100% (12/12)
+  ep_latency_+50ms       100% (12/12)
+  ep_latency_+100ms      100% (12/12)
+  future_state_actions   100% (12/12)
+  action_shift_-1        100% (8/8)
+  action_shift_-2        100% (8/8)
+  action_shift_-3        100% (8/8)
+Clean (uncorrupted) datasets with an alarm, per check (of 12): {'causality': 4, 'stalls': 2}

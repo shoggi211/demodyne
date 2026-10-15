@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demodyne"
+version = "0.1.0"
+description = "Identify actuator dynamics and physics-level data bugs from robot teleoperation datasets"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pandas>=2.0", "pyarrow>=12", "huggingface_hub>=0.20"]
+
+[project.optional-dependencies]
+sim = ["mujoco>=3.0"]
+test = ["pytest>=7"]
+
+[project.scripts]
+demodyne = "demodyne.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

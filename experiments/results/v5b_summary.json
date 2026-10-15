@@ -1,0 +1,116 @@
+{
+ "rows": [
+  {
+   "repo_id": "Thorns07/so100_test_diffusion_grasp",
+   "lag": 0.03349579817285833,
+   "default": 1.4550133180706317,
+   "calibrated": 1.2554698157646218,
+   "fopdt": 0.4900672475026715,
+   "naive": 2.111469284989171,
+   "rel_improvement": 0.13714204524987264
+  },
+  {
+   "repo_id": "Jiafei1224/so100_cubestack2",
+   "lag": 0.07961623822226466,
+   "default": 0.8445984224408575,
+   "calibrated": 0.8702374601834322,
+   "fopdt": 0.36469842518592194,
+   "naive": 2.0569299056990937,
+   "rel_improvement": -0.030356483106467155
+  },
+  {
+   "repo_id": "sincostangerines/stack_cubes_100",
+   "lag": 0.0854061304175136,
+   "default": 0.7662940006895649,
+   "calibrated": 0.7347396402691752,
+   "fopdt": 0.4153909321877644,
+   "naive": 2.4214292137820914,
+   "rel_improvement": 0.041177877409969164
+  },
+  {
+   "repo_id": "shylee/so100_pengripA",
+   "lag": 0.0864695804318584,
+   "default": 2.3419768683923006,
+   "calibrated": 2.3396830629673753,
+   "fopdt": 0.3743304165852272,
+   "naive": 2.557880527629399,
+   "rel_improvement": 0.0009794312898145448
+  },
+  {
+   "repo_id": "Aadhavan/so101_test1",
+   "lag": 0.08913300420771444,
+   "default": 2.837629707268206,
+   "calibrated": 2.817619058117831,
+   "fopdt": 2.908295369132902,
+   "naive": 5.833327902201203,
+   "rel_improvement": 0.007051888799697963
+  },
+  {
+   "repo_id": "chair0/single_print_2cam_merged_trimmed_v3_metadata",
+   "lag": 0.09342375482530099,
+   "default": 0.7596717309861055,
+   "calibrated": 0.7145851173472237,
+   "fopdt": 0.5033612461338902,
+   "naive": 3.1926595959161475,
+   "rel_improvement": 0.059350126903309
+  },
+  {
+   "repo_id": "k1000dai/so101_pick_2_color_cube_and_put-smolvla",
+   "lag": 0.09488592717088551,
+   "default": 0.5419908334602296,
+   "calibrated": 0.46337163165422657,
+   "fopdt": 0.3589134624523739,
+   "naive": 2.9208725139596177,
+   "rel_improvement": 0.1450563311266259
+  },
+  {
+   "repo_id": "lt-s/so100_train_move_red_block_tray_to_red_dish",
+   "lag": 0.09576326181730835,
+   "default": 0.7878466809347552,
+   "calibrated": 0.7471683405088585,
+   "fopdt": 0.7197099359775206,
+   "naive": 4.942746536554997,
+   "rel_improvement": 0.051632305384130224
+  },
+  {
+   "repo_id": "geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop",
+   "lag": 0.11490666358296517,
+   "default": 1.4671475369848628,
+   "calibrated": 0.8729761863396664,
+   "fopdt": 0.7864134393158125,
+   "naive": 4.853849150387716,
+   "rel_improvement": 0.4049840494339641
+  },
+  {
+   "repo_id": "Maxvondemmustermann/so100_cup",
+   "lag": 0.1250922507253423,
+   "default": 1.8733978237059934,
+   "calibrated": 1.1967764959445246,
+   "fopdt": 1.1041364005512455,
+   "naive": 4.640284112048496,
+   "rel_improvement": 0.36117332859016715
+  },
+  {
+   "repo_id": "CRPlab/lekiwi-full-dataset",
+   "lag": 0.12544242732397565,
+   "default": 1.901889282690925,
+   "calibrated": 0.9712768528184854,
+   "fopdt": 0.8906232455141779,
+   "naive": 6.597327728652647,
+   "rel_improvement": 0.4893094662985558
+  },
+  {
+   "repo_id": "jccj/shape_matching2",
+   "lag": 0.1517418988697067,
+   "default": 2.1280322970070857,
+   "calibrated": 1.5312827683935333,
+   "fopdt": 0.9220717260950737,
+   "naive": 4.226842918126595,
+   "rel_improvement": 0.2804231540342855
+  }
+ ],
+ "spearman": [
+  0.44055944055944063,
+  0.1517350357167303
+ ]
+}

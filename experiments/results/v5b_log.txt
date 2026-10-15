@@ -1,0 +1,130 @@
+
+=== Thorns07/so100_test_diffusion_grasp (lag 33 ms)
+iter 0: er_pan: L 18->22 T 84->11  r_lift: L 23->-5 T 75->39  w_flex: L 23->-7 T 69->37  t_flex: L 20->-5 T 69->38  t_roll: L 20->17 T 69->31  ripper: L 22->22 T 71->33
+iter 1: er_pan: L -1->22 T 46->11  r_lift: L -0->-5 T 47->39  w_flex: L -0->-7 T 42->37  t_flex: L 12->-5 T 30->38  t_roll: L 21->17 T 28->31  ripper: L 40->22 T 20->33
+iter 2: er_pan: L -11->22 T 66->11  r_lift: L -3->-5 T 47->39  w_flex: L -4->-7 T 43->37  t_flex: L 6->-5 T 33->38  t_roll: L 21->17 T 28->31  ripper: L 38->22 T 20->33
+iter 3: er_pan: L -30->22 T 144->11  r_lift: L -33->-5 T 104->39  w_flex: L -8->-7 T 45->37  t_flex: L 1->-5 T 37->38  t_roll: L 21->17 T 28->31  ripper: L 39->22 T 21->33
+
+held-out episodes: 10   joints: ['main_shoulder_pan', 'main_shoulder_lift', 'main_elbow_flex', 'main_wrist_flex', 'main_wrist_roll']
+  menagerie_default            mean rmse=1.51  mean rmse_dyn=1.46   per-joint dyn=[0.75, 1.84, 1.44, 1.7, 1.54]
+  demodyne_calibrated          mean rmse=1.32  mean rmse_dyn=1.26   per-joint dyn=[0.6, 1.31, 1.54, 1.05, 1.78]
+  naive_state_equals_command   mean rmse=2.14  mean rmse_dyn=2.11   per-joint dyn=[1.12, 2.09, 2.21, 2.09, 3.04]
+  demodyne_fopdt_model         mean rmse=0.50  mean rmse_dyn=0.49   per-joint dyn=[0.48, 0.68, 0.39, 0.3, 0.59]
+
+=== lt-s/rsj2025_train_move_two_blocks_tray_to_matching_dishes (lag 63 ms)
+iter 0: an.pos: L 23->25 T 82->29  ft.pos: L 32->28 T 72->38  ex.pos: L 27->25 T 71->39  ex.pos: L 26->24 T 70->36  ll.pos: L 24->27 T 67->36  er.pos: L 28->28 T 69->44
+iter 1: an.pos: L 25->25 T 39->29  ft.pos: L -10->28 T 124->38  ex.pos: L 12->25 T 67->39  ex.pos: L 33->24 T 32->36  ll.pos: L 32->27 T 34->36  er.pos: L 40->28 T 32->44
+iter 2: an.pos: L 10->25 T 51->29  ft.pos: L -26->28 T 222->38  ex.pos: L -33->25 T 180->39  ex.pos: L 31->24 T 33->36  ll.pos: L 30->27 T 34->36  er.pos: L 39->28 T 38->44
+iter 3: an.pos: L 0->25 T 65->29  ft.pos: L 19->28 T 419->38  ex.pos: L -17->25 T 506->39  ex.pos: L 6->24 T 119->36  ll.pos: L 30->27 T 35->36  er.pos: L 40->28 T 34->44
+
+held-out episodes: 10   joints: ['shoulder_pan.pos', 'shoulder_lift.pos', 'elbow_flex.pos', 'wrist_flex.pos', 'wrist_roll.pos']
+  menagerie_default            mean rmse=3.23  mean rmse_dyn=3.23   per-joint dyn=[1.9, 5.0, 3.73, 3.9, 1.61]
+  demodyne_calibrated          mean rmse=3.60  mean rmse_dyn=3.60   per-joint dyn=[1.05, 4.96, 3.58, 7.41, 0.99]
+  naive_state_equals_command   mean rmse=6.09  mean rmse_dyn=6.09   per-joint dyn=[3.2, 8.54, 8.49, 5.99, 4.21]
+  demodyne_fopdt_model         mean rmse=0.88  mean rmse_dyn=0.88   per-joint dyn=[0.46, 1.31, 1.2, 0.73, 0.7]
+
+=== Tank-123/so101_testdata_0820 (lag 85 ms)
+iter 0: er_pan: L 20->23 T 81->49  r_lift: L 28->20 T 68->81  w_flex: L 17->33 T 71->59  t_flex: L 23->17 T 66->70  t_roll: L 22->24 T 66->51  ripper: L 22->57 T 67->54
+iter 1: er_pan: L 30->23 T 44->49  r_lift: L 29->20 T 75->81  w_flex: L 29->33 T 59->59  t_flex: L 22->17 T 66->70  t_roll: L 27->24 T 47->51  ripper: L 52->57 T 50->54
+iter 2: er_pan: L 27->23 T 47->49  r_lift: L 29->20 T 75->81  w_flex: L 32->33 T 59->59  t_flex: L 22->17 T 66->70  t_roll: L 25->24 T 51->51  ripper: L 53->57 T 57->54
+iter 3: er_pan: L 27->23 T 47->49  r_lift: L 29->20 T 75->81  w_flex: L 33->33 T 59->59  t_flex: L 22->17 T 66->70  t_roll: L 25->24 T 50->51  ripper: L 56->57 T 54->54
+
+held-out episodes: 10   joints: ['main_shoulder_pan', 'main_shoulder_lift', 'main_elbow_flex', 'main_wrist_flex', 'main_wrist_roll']
+  menagerie_default            mean rmse=0.85  mean rmse_dyn=0.72   per-joint dyn=[0.64, 0.58, 0.72, 1.27, 0.38]
+  demodyne_calibrated          mean rmse=0.76  mean rmse_dyn=0.62   per-joint dyn=[0.3, 0.65, 0.67, 1.27, 0.23]
+  naive_state_equals_command   mean rmse=4.07  mean rmse_dyn=4.05   per-joint dyn=[2.66, 6.13, 3.9, 4.39, 3.19]
+  demodyne_fopdt_model         mean rmse=0.54  mean rmse_dyn=0.54   per-joint dyn=[0.25, 0.84, 0.39, 1.02, 0.18]
+
+=== shylee/so100_pengripA (lag 86 ms)
+iter 0: er_pan: L 21->12 T 80->73  r_lift: L -100->-0 T 233->99  w_flex: L -68->-0 T 176->98  t_flex: L 21->5 T 68->76  t_roll: L 20->5 T 67->73  ripper: L 23->32 T 67->63
+iter 1: er_pan: L 24->12 T 65->73  r_lift: L -97->-0 T 255->99  w_flex: L -45->-0 T 172->98  t_flex: L 22->5 T 64->76  t_roll: L 22->5 T 61->73  ripper: L 29->32 T 64->63
+iter 2: er_pan: L 24->12 T 65->73  r_lift: L -50->-0 T 251->99  w_flex: L -33->-0 T 172->98  t_flex: L 22->5 T 64->76  t_roll: L 22->5 T 61->73  ripper: L 31->32 T 64->63
+iter 3: er_pan: L 24->12 T 65->73  r_lift: L -4->-0 T 234->99  w_flex: L -19->-0 T 166->98  t_flex: L 22->5 T 64->76  t_roll: L 22->5 T 61->73  ripper: L 32->32 T 62->63
+
+held-out episodes: 10   joints: ['main_shoulder_pan', 'main_shoulder_lift', 'main_elbow_flex', 'main_wrist_flex', 'main_wrist_roll']
+  menagerie_default            mean rmse=2.47  mean rmse_dyn=2.34   per-joint dyn=[0.34, 6.77, 3.74, 0.6, 0.26]
+  demodyne_calibrated          mean rmse=2.47  mean rmse_dyn=2.34   per-joint dyn=[0.3, 6.77, 3.74, 0.61, 0.28]
+  naive_state_equals_command   mean rmse=2.98  mean rmse_dyn=2.56   per-joint dyn=[1.85, 4.23, 3.85, 1.55, 1.31]
+  demodyne_fopdt_model         mean rmse=0.39  mean rmse_dyn=0.37   per-joint dyn=[0.25, 0.63, 0.53, 0.32, 0.14]
+
+=== chair0/single_print_2cam_merged_trimmed_v3_metadata (lag 93 ms)
+iter 0: an.pos: L 21->31 T 80->61  ft.pos: L 21->-9 T 77->106  ex.pos: L 21->6 T 70->95  ex.pos: L 21->19 T 67->71  ll.pos: L 21->27 T 68->55  er.pos: L 21->39 T 69->58
+iter 1: an.pos: L 31->31 T 61->61  ft.pos: L 21->-9 T 83->106  ex.pos: L 19->6 T 86->95  ex.pos: L 21->19 T 70->71  ll.pos: L 27->27 T 55->55  er.pos: L 40->39 T 54->58
+iter 2: an.pos: L 30->31 T 61->61  ft.pos: L 21->-9 T 84->106  ex.pos: L 18->6 T 86->95  ex.pos: L 21->19 T 70->71  ll.pos: L 27->27 T 55->55  er.pos: L 32->39 T 64->58
+iter 3: an.pos: L 31->31 T 62->61  ft.pos: L 21->-9 T 84->106  ex.pos: L 18->6 T 86->95  ex.pos: L 21->19 T 70->71  ll.pos: L 27->27 T 55->55  er.pos: L 44->39 T 50->58
+
+held-out episodes: 10   joints: ['shoulder_pan.pos', 'shoulder_lift.pos', 'elbow_flex.pos', 'wrist_flex.pos', 'wrist_roll.pos']
+  menagerie_default            mean rmse=0.89  mean rmse_dyn=0.76   per-joint dyn=[0.33, 1.78, 0.99, 0.48, 0.21]
+  demodyne_calibrated          mean rmse=0.84  mean rmse_dyn=0.71   per-joint dyn=[0.29, 1.78, 0.81, 0.44, 0.25]
+  naive_state_equals_command   mean rmse=3.35  mean rmse_dyn=3.19   per-joint dyn=[2.45, 4.76, 3.61, 3.54, 1.61]
+  demodyne_fopdt_model         mean rmse=0.51  mean rmse_dyn=0.50   per-joint dyn=[0.23, 1.37, 0.52, 0.28, 0.11]
+
+=== lt-s/so100_train_move_blue_block_tray_to_blue_dish_flip (lag 94 ms)
+iter 0: er_pan: L 19->34 T 83->42  r_lift: L 26->28 T 73->73  w_flex: L 23->21 T 69->71  t_flex: L 21->25 T 67->69  t_roll: L 23->28 T 67->76  ripper: L 22->28 T 70->75
+iter 1: er_pan: L 45->34 T 29->42  r_lift: L 28->28 T 73->73  w_flex: L 23->21 T 69->71  t_flex: L 23->25 T 70->69  t_roll: L 25->28 T 78->76  ripper: L 25->28 T 77->75
+iter 2: er_pan: L 25->34 T 61->42  r_lift: L 28->28 T 73->73  w_flex: L 23->21 T 69->71  t_flex: L 25->25 T 69->69  t_roll: L 26->28 T 76->76  ripper: L 26->28 T 76->75
+iter 3: er_pan: L 44->34 T 29->42  r_lift: L 28->28 T 73->73  w_flex: L 23->21 T 69->71  t_flex: L 25->25 T 69->69  t_roll: L 27->28 T 76->76  ripper: L 28->28 T 76->75
+
+held-out episodes: 10   joints: ['main_shoulder_pan', 'main_shoulder_lift', 'main_elbow_flex', 'main_wrist_flex', 'main_wrist_roll']
+  menagerie_default            mean rmse=1.03  mean rmse_dyn=0.84   per-joint dyn=[0.37, 0.9, 1.01, 0.57, 1.35]
+  demodyne_calibrated          mean rmse=0.93  mean rmse_dyn=0.75   per-joint dyn=[0.36, 0.89, 1.01, 0.54, 0.95]
+  naive_state_equals_command   mean rmse=5.37  mean rmse_dyn=5.36   per-joint dyn=[1.67, 6.82, 5.91, 4.67, 7.72]
+  demodyne_fopdt_model         mean rmse=0.71  mean rmse_dyn=0.71   per-joint dyn=[0.27, 1.01, 0.76, 0.55, 0.99]
+
+=== furuya02/so101-duck-pickup-v30 (lag 98 ms)
+iter 0: an.pos: L 20->19 T 78->48  ft.pos: L 13->0 T 79->107  ex.pos: L 19->-1 T 67->91  ex.pos: L 22->10 T 62->93  ll.pos: L 21->27 T 63->72  er.pos: L 23->20 T 63->81
+iter 1: an.pos: L 31->19 T 30->48  ft.pos: L 18->0 T 90->107  ex.pos: L 17->-1 T 79->91  ex.pos: L 16->10 T 91->93  ll.pos: L 23->27 T 75->72  er.pos: L 18->20 T 83->81
+iter 2: an.pos: L 26->19 T 53->48  ft.pos: L 19->0 T 94->107  ex.pos: L 18->-1 T 78->91  ex.pos: L 16->10 T 89->93  ll.pos: L 25->27 T 71->72  er.pos: L 21->20 T 80->81
+iter 3: an.pos: L 31->19 T 32->48  ft.pos: L 19->0 T 94->107  ex.pos: L 18->-1 T 78->91  ex.pos: L 17->10 T 88->93  ll.pos: L 26->27 T 72->72  er.pos: L 20->20 T 81->81
+
+held-out episodes: 10   joints: ['shoulder_pan.pos', 'shoulder_lift.pos', 'elbow_flex.pos', 'wrist_flex.pos', 'wrist_roll.pos']
+  menagerie_default            mean rmse=0.76  mean rmse_dyn=0.75   per-joint dyn=[0.4, 0.9, 1.41, 0.57, 0.45]
+  demodyne_calibrated          mean rmse=0.67  mean rmse_dyn=0.66   per-joint dyn=[0.48, 0.66, 1.41, 0.4, 0.33]
+  naive_state_equals_command   mean rmse=2.88  mean rmse_dyn=2.88   per-joint dyn=[0.83, 4.66, 3.92, 2.35, 2.63]
+  demodyne_fopdt_model         mean rmse=0.37  mean rmse_dyn=0.37   per-joint dyn=[0.12, 0.88, 0.36, 0.27, 0.22]
+
+=== geonmin-kim/SO101-lv4-3color-cube-mat-to-mat-no-human-reset-v1-topcamcrop (lag 115 ms)
+iter 0: an.pos: L 21->0 T 80->117  ft.pos: L 26->-0 T 69->120  ex.pos: L 21->0 T 70->113  ex.pos: L 21->11 T 67->90  ll.pos: L 21->26 T 67->82  er.pos: L 20->46 T 69->72
+iter 1: an.pos: L 17->0 T 103->117  ft.pos: L 23->-0 T 104->120  ex.pos: L 16->0 T 100->113  ex.pos: L 18->11 T 85->90  ll.pos: L 22->26 T 84->82  er.pos: L 42->46 T 70->72
+iter 2: an.pos: L 17->0 T 105->117  ft.pos: L 23->-0 T 105->120  ex.pos: L 15->0 T 102->113  ex.pos: L 18->11 T 86->90  ll.pos: L 24->26 T 82->82  er.pos: L 43->46 T 73->72
+iter 3: an.pos: L 17->0 T 105->117  ft.pos: L 23->-0 T 105->120  ex.pos: L 15->0 T 102->113  ex.pos: L 18->11 T 86->90  ll.pos: L 25->26 T 82->82  er.pos: L 46->46 T 73->72
+
+held-out episodes: 10   joints: ['shoulder_pan.pos', 'shoulder_lift.pos', 'elbow_flex.pos', 'wrist_flex.pos', 'wrist_roll.pos']
+  menagerie_default            mean rmse=1.43  mean rmse_dyn=1.47   per-joint dyn=[1.23, 2.07, 2.25, 0.89, 0.9]
+  demodyne_calibrated          mean rmse=0.88  mean rmse_dyn=0.87   per-joint dyn=[0.67, 0.99, 1.44, 0.64, 0.63]
+  naive_state_equals_command   mean rmse=4.85  mean rmse_dyn=4.85   per-joint dyn=[5.23, 7.5, 5.86, 3.07, 2.61]
+  demodyne_fopdt_model         mean rmse=0.79  mean rmse_dyn=0.79   per-joint dyn=[0.74, 1.37, 0.91, 0.55, 0.37]
+
+=== CRPlab/lekiwi-full-dataset (lag 125 ms)
+iter 0: an.pos: L 21->33 T 80->98  ft.pos: L 24->8 T 72->123  ex.pos: L 22->21 T 69->103  ex.pos: L 21->40 T 67->86  ll.pos: L 21->50 T 67->71  er.pos: L 23->59 T 67->60
+iter 1: an.pos: L 26->33 T 100->98  ft.pos: L 20->8 T 113->123  ex.pos: L 16->21 T 105->103  ex.pos: L 30->40 T 90->86  ll.pos: L 41->50 T 71->71  er.pos: L 52->59 T 58->60
+iter 2: an.pos: L 31->33 T 100->98  ft.pos: L 19->8 T 115->123  ex.pos: L 21->21 T 104->103  ex.pos: L 41->40 T 83->86  ll.pos: L 48->50 T 72->71  er.pos: L 54->59 T 61->60
+iter 3: an.pos: L 31->33 T 98->98  ft.pos: L 19->8 T 115->123  ex.pos: L 21->21 T 103->103  ex.pos: L 40->40 T 86->86  ll.pos: L 49->50 T 71->71  er.pos: L 57->59 T 61->60
+
+held-out episodes: 10   joints: ['shoulder_pan.pos', 'shoulder_lift.pos', 'elbow_flex.pos', 'wrist_flex.pos', 'wrist_roll.pos']
+  menagerie_default            mean rmse=1.89  mean rmse_dyn=1.90   per-joint dyn=[1.84, 2.27, 2.09, 2.68, 0.64]
+  demodyne_calibrated          mean rmse=0.98  mean rmse_dyn=0.97   per-joint dyn=[0.85, 1.35, 1.02, 1.35, 0.29]
+  naive_state_equals_command   mean rmse=6.61  mean rmse_dyn=6.60   per-joint dyn=[7.48, 8.18, 7.15, 7.83, 2.36]
+  demodyne_fopdt_model         mean rmse=0.90  mean rmse_dyn=0.89   per-joint dyn=[0.8, 1.66, 0.85, 0.93, 0.22]
+
+=== LeRobot-worldwide-hackathon/292-AlorsCent-cube_in_cube_shaped_hole0 (lag 146 ms)
+iter 0: an.pos: L 19->30 T 82->120  ft.pos: L 18->-0 T 78->153  ex.pos: L 18->0 T 73->147  ex.pos: L 20->58 T 69->78  ll.pos: L 20->22 T 68->120  er.pos: L 22->62 T 67->86
+iter 1: an.pos: L 22->30 T 118->120  ft.pos: L 16->-0 T 131->153  ex.pos: L 12->0 T 129->147  ex.pos: L 46->58 T 77->78  ll.pos: L 15->22 T 118->120  er.pos: L 48->62 T 86->86
+iter 2: an.pos: L 26->30 T 120->120  ft.pos: L 16->-0 T 140->153  ex.pos: L 12->0 T 137->147  ex.pos: L 53->58 T 80->78  ll.pos: L 19->22 T 121->120  er.pos: L 57->62 T 88->86
+iter 3: an.pos: L 29->30 T 121->120  ft.pos: L 15->-0 T 142->153  ex.pos: L 12->0 T 139->147  ex.pos: L 56->58 T 79->78  ll.pos: L 23->22 T 120->120  er.pos: L 60->62 T 87->86
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\Shaurya\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+held-out episodes: 10   joints: ['shoulder_pan.pos', 'shoulder_lift.pos', 'elbow_flex.pos', 'wrist_flex.pos', 'wrist_roll.pos']
+  menagerie_default            mean rmse=2.00  mean rmse_dyn=1.89   per-joint dyn=[1.38, 2.85, 3.05, 1.54, 0.6]
+  demodyne_calibrated          mean rmse=1.28  mean rmse_dyn=1.04   per-joint dyn=[0.77, 1.45, 1.69, 0.91, 0.38]
+  naive_state_equals_command   mean rmse=4.57  mean rmse_dyn=4.45   per-joint dyn=[3.78, 7.19, 6.32, 3.55, 1.41]
+  demodyne_fopdt_model         mean rmse=0.67  mean rmse_dyn=0.67   per-joint dyn=[0.62, 1.38, 0.67, 0.49, 0.18]
+
+repo | lag ms | default | calibrated | improvement
+
+n=0  median improvement=+nan%  improved in 0/0
+Spearman(|lag - default|, improvement) = nan (p=nan)
+arms >25 ms from default: n=0 median +nan%;  within 25 ms: n=0 median +nan%
