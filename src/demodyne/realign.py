@@ -77,19 +77,25 @@ def _update_stats(meta_dir: Path, actions: np.ndarray, key: str):
 
 def realign(path_or_repo, out_dir, target_frames: float | None = CENSUS_RECORD_ALIGNMENT,
             shift_frames: float | None = None, max_episodes: int | None = 60, copy_videos: bool = False,
-            action_key: str = "action", cache_dir=None) -> dict:
+            action_key: str = "action", cache_dir=None, episodes=None) -> dict:
     """Write a re-aligned copy of a LeRobot dataset. Returns the provenance record.
 
     Exactly one of `shift_frames` (apply this shift) or `target_frames` (measure,
-    then shift to reach this alignment) determines the shift.
+    then shift to reach this alignment) determines the shift.  `episodes` (an
+    iterable of episode indices) restricts both the measurement and the shift to
+    those episodes, e.g. the part of a merged dataset that came from another
+    recording pipeline; other episodes are copied unchanged.
     """
+    ep_set = None if episodes is None else {int(e) for e in episodes}
     root = _root(path_or_repo, cache_dir)
     out = Path(out_dir)
     if out.resolve() == root.resolve():
         raise ValueError("out_dir must differ from the source dataset")
     measured = float("nan")
     if shift_frames is None:
-        ds = load(str(root), max_episodes=max_episodes, action_key=action_key)
+        ds = load(str(root), max_episodes=None if ep_set else max_episodes, action_key=action_key)
+        if ep_set is not None:
+            ds = ds.subset([i for i, e in enumerate(ds.episodes) if e.index in ep_set])
         measured = measure_alignment(ds)
         if not np.isfinite(measured):
             raise ValueError("alignment is not identifiable for this dataset (too few well-fit joints)")
@@ -106,10 +112,10 @@ def realign(path_or_repo, out_dir, target_frames: float | None = CENSUS_RECORD_A
             raise ValueError(f"{f}: no '{action_key}' column")
         dtype = np.asarray(df[action_key].iloc[0]).dtype
         new = [None] * len(df)
-        for _, g in df.groupby("episode_index", sort=False):
+        for e, g in df.groupby("episode_index", sort=False):
             g = g.sort_values("frame_index")
             A = np.stack(g[action_key].values).astype(float)
-            S = shift_array(A, k).astype(dtype)
+            S = (shift_array(A, k) if ep_set is None or int(e) in ep_set else A).astype(dtype)
             for pos, row in zip(g.index, S):
                 new[pos] = row
             all_actions.append(S)
@@ -125,6 +131,7 @@ def realign(path_or_repo, out_dir, target_frames: float | None = CENSUS_RECORD_A
     rec = {"source": str(path_or_repo), "measured_alignment_frames": measured, "target_alignment_frames":
            target_frames if np.isfinite(measured) else None, "shift_frames": k,
            "convention": "action'[t] = action[t + shift_frames], linear interpolation, edges held",
-           "videos_copied": bool(copy_videos and (root / "videos").exists()), "demodyne_version": __version__}
+           "videos_copied": bool(copy_videos and (root / "videos").exists()), "demodyne_version": __version__,
+           "episodes": None if ep_set is None else sorted(ep_set)}
     (out / "meta" / "demodyne_realign.json").write_text(json.dumps(rec, indent=2))
     return rec

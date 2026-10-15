@@ -33,6 +33,8 @@ demodyne sim-params lerobot/svla_so100_pickplace       # MuJoCo kp/kv + command 
 ```
 
 `<dataset>` is a Hub repo id or a local LeRobot directory (v2.0, v2.1 or v3.0 layout).
+A web version for non-programmers lives in [`space/`](space/) (Hugging Face Space), and a
+plain-language write-up of the findings is in [`docs/article.md`](docs/article.md).
 Only `meta/info.json` and `data/**/*.parquet` are fetched.
 
 ---

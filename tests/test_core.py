@@ -258,3 +258,22 @@ def test_plain_summary_verdicts(ds):
     bad, _ = C.swap_channels(ds, 0, 2)
     fb = dd.fit_dataset(bad)
     assert "Problems found" in summary(bad, fb, audit(bad, fb))
+
+
+def test_realign_subset_of_episodes(tmp_path, ds):
+    from demodyne.realign import measure_alignment, realign
+    src = tmp_path / "src"
+    write_lerobot(src, ds, "v3")
+    mixed = tmp_path / "mixed"
+    late = list(range(6, 12))
+    realign(str(src), str(mixed), shift_frames=-2.0, episodes=late)       # simulate a second pipeline
+    m = dd.load(str(mixed))
+    a_first = measure_alignment(m.subset(range(0, 6)))
+    a_late = measure_alignment(m.subset(range(6, 12)))
+    assert abs((a_first - a_late) - 2.0) < 0.2
+    fixed = tmp_path / "fixed"
+    realign(str(mixed), str(fixed), target_frames=a_first, episodes=late)  # repair only that part
+    f = dd.load(str(fixed))
+    assert abs(measure_alignment(f.subset(range(6, 12))) - a_first) < 0.15
+    for e1, e2 in zip(m.episodes[:6], f.episodes[:6]):
+        assert np.array_equal(e1.u, e2.u)                                  # untouched episodes
