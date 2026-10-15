@@ -151,6 +151,17 @@ What this does and does not show:
 * `realign` fixes label *timing* only. Differences in arm response lag (finding 1 below) are
   hardware properties and remain after re-alignment; `pool-check` still reports them.
 
+### Next test: a real robot policy (free cloud GPU)
+
+[`notebooks/aloha_act_realign.ipynb`](notebooks/aloha_act_realign.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shoggi211/demodyne/blob/main/notebooks/aloha_act_realign.ipynb)
+trains LeRobot's ACT policy on the official ALOHA transfer-cube benchmark three ways (clean data;
+half the episodes logged 2 frames late; the same data repaired by `demodyne realign`) and scores
+each in the simulator. Every step was smoke-tested locally on LeRobot 0.6.1 (data preparation,
+training, resume, evaluation); the full GPU run (about 3 hours on a free T4) has **not been run
+yet**, so no result is claimed. On the ALOHA data itself, demodyne measured the planted 2.00-frame
+offset as 1.95 frames.
+
 ## Findings: census of 233 community SO-100/SO-101 datasets
 
 Random sample of the 3,964 Hub datasets tagged `LeRobot` + `so100`/`so101` (250 sampled; 233
