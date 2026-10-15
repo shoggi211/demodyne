@@ -16,7 +16,14 @@ demodyne mines that signal. From the tabular data alone (no video, no hardware) 
 5. **runs fleet censuses** across hundreds of datasets for population-level actuator statistics and data-quality prevalence.
 
 ```
+# analysis only (identify, audit, pool-check, realign)
+pip install "git+https://github.com/shoggi211/demodyne"
+
+# full checkout incl. MuJoCo experiments
+git clone https://github.com/shoggi211/demodyne && cd demodyne
 pip install -e ".[sim,test]"
+git clone --depth 1 --filter=blob:none --sparse https://github.com/google-deepmind/mujoco_menagerie assets/menagerie
+git -C assets/menagerie sparse-checkout set trs_so_arm100
 
 demodyne report  lerobot/svla_so100_pickplace          # dynamics table + audit
 demodyne audit   some-user/some_so101_dataset          # exit code 2 on errors (CI-friendly)
