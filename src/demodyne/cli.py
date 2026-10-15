@@ -5,6 +5,8 @@
   demodyne report <dataset> -o f   both, as Markdown + JSON
   demodyne sim-params <dataset>    MuJoCo position-actuator kp/kv + dead time
   demodyne fleet <results_dir>     population summary of a census directory
+  demodyne pool-check <ds> <ds>..  can these datasets be trained on together?
+  demodyne realign <dataset> -o d  copy with actions shifted to a common alignment
 
 <dataset> is a local LeRobot dataset directory or a Hugging Face repo id.
 """

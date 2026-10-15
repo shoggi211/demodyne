@@ -1,0 +1,2 @@
+demodyne @ git+https://github.com/shoggi211/demodyne
+gradio>=5

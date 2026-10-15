@@ -249,3 +249,12 @@ def test_closed_loop_rollout_order_and_tracking():
     assert seen == list(range(1, 61))          # policy at step k sees k+1 observations
     assert np.allclose(X[0], q0, atol=0.1)     # first observation precedes any command
     assert np.abs(X[-1] - goal)[[0, 2, 3, 4]].max() < 1.5
+
+
+def test_plain_summary_verdicts(ds):
+    from demodyne.plain import summary
+    fits = dd.fit_dataset(ds)
+    assert "healthy" in summary(ds, fits, audit(ds, fits))
+    bad, _ = C.swap_channels(ds, 0, 2)
+    fb = dd.fit_dataset(bad)
+    assert "Problems found" in summary(bad, fb, audit(bad, fb))
